@@ -1,0 +1,259 @@
+// <uniquifier>: Use a uniquifier for the class name
+// <weight>: Use a value from 400 to 700
+
+.markazi-text {
+  font-family: "Markazi Text", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+
+  background-image: url("//Users/lilyrickels/Desktop/Zine_site_v2/images/sitebg.jpg"); 
+  background-position: center; 
+  background-repeat: no-repeat;  
+}
+
+p {
+  color: #0078C0;
+  font-family: "Markazi Text", serif;
+  font-size: 1.15em;
+}
+ul{
+  color: #0078C0;
+}
+h2 {
+  font-size: 2.5em;
+  font-family: "Markazi Text", serif;
+  color: #0078C0;
+}
+h3 {
+  color: #0078C0;
+}
+
+ /*navigation menu*/
+ a:link {
+color:#0078C0;
+ }
+ a:visited {
+  color: #0078C0;
+}
+ a:hover{
+  color: #ACD7F0;
+ }
+ 
+ nav {
+  top: 0;
+  border-bottom:3px solid #0078C0;    
+  text-align:right;
+  position:fixed;
+  width:100%;
+  background-color: white;
+}
+
+nav ul {
+  padding-left: 0.4em;
+  margin:0;
+}
+.nav-item {
+  font-size:2em;
+  display:inline-block;
+  padding:0.20em;
+  font-weight:bold;
+}
+.nav-item2 {
+  font-size:2em;
+  display:inline-block;
+  font-weight:bold;
+}
+
+.nav-item:hover {
+  background:#0078C0;
+  color:white;
+}
+
+.siteicon {
+  width: 32px;
+  height: 30px;
+}
+
+.spacing {
+  padding-left: 1135px;
+}
+
+hr {
+    position: fixed;
+    height:3px;
+    size: 1000px;
+    border-width:0;
+    background-color:#0078C0;
+    padding: 0%;
+}
+
+ /*body of home page*/
+
+.homepage {
+  background-image: url(images/sitebgblue.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.title {
+ text-align: right;
+ font-size: 10em;
+ line-height: 0.8em;
+ padding-right: 0.5em;
+ font-family: "Markazi Text", serif;
+ color: #0078C0;
+}
+
+.spacer{
+  padding-top: 200px;
+}
+.spacer2{
+  padding-top: 300px;
+}
+
+.para1 {
+    font-family: "Markazi Text", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 1em;
+    padding-left: 2em;
+    word-wrap: break-word;
+    width: 16.5em;
+    color: #0078C0;
+    background: rgba(255, 255, 255, 0.5);
+    display:inline-block;
+  }
+
+.para1img {
+  width: 550px;
+  height: 350px;
+  padding-left: 10em;
+  
+}
+
+.introstepwrapper {
+  display:grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  column-gap: 1em;
+
+}
+
+.introstep {
+  border-left: 3px solid #0078C0;
+  padding: 1.5em;
+  font-size: 1.5em;
+}
+
+.footer {
+  font-size: 1em;
+  color: #0078C0;
+  font-family: "Markazi Text", serif;
+  font-style: italic;
+  text-align: center;
+
+}
+/* How to page */
+
+.wrapper {
+  display:grid;
+  grid-template-columns: 75% 25%;
+  padding: 0.25em;
+}
+.howtobody {
+  padding: 10%;
+  padding-left: 15%;
+  padding-right: 12%;
+  max-width: 38em
+}
+.howtolist {
+  font-size: 1.15em;
+  max-width: 22em;
+}
+
+.howtotitle {
+  font-size:2em;
+}
+
+.sidebar{
+  padding: 15%;
+  font-size: 2.5em;
+  font-family: "Markazi Text", serif;
+  font-style: italic;
+}
+
+/* Library */
+
+div.gallery {
+  padding-top: 4em;
+  margin: 10px;
+  float: left;
+  width: 20em;
+}
+
+.wrapper2 {
+  display:grid;
+  grid-template-columns: 75% 25%;
+  padding: 0.50em;
+}
+
+.gallery {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-auto-rows: 10em;
+column-gap: 1em;
+row-gap: 16em;
+}
+
+.libraryimage {
+  width:20em;
+  height:20em;
+}
+
+.sidebar2{
+  padding: 15%;
+  font-family: "Markazi Text", serif;
+}
+
+.howtonumber{
+  color: #0078C0; 
+  font-family: "Markazi Text", serif;
+  font-size: 1.15em;
+  line-height: 130%;
+}
+
+.howtolist{
+  line-height: 130%;
+}
+
+{box-sizing:border-box}
+
+/*Library pages*/
+.slideshow-container {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+
+.slides {
+  display: inline;
+  display: inline-block;
+}
+
+.slideimg {
+  width: 100px;
+  height: 500px;
+}
+
+.caption {
+  padding-left: 3em;
+  width: 35%;
+}
+
